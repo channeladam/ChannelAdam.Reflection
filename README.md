@@ -1,2 +1,2 @@
 # ChannelAdam.Reflection
-A .NET library that provides helpers for using reflection
+A .NET library that provides helpers for using reflection.

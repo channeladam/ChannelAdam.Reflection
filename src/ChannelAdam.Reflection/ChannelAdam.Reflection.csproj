@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Adam Craven</Authors>
+    <Version>0.0.0</Version>
+    <Description>A .NET library that provides helpers for using reflection.</Description>
+    <Copyright>Copyright 2014-2018 Adam Craven</Copyright>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/channeladam/ChannelAdam.Reflection</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/channeladam/ChannelAdam.Reflection</RepositoryUrl>
+    <PackageTags>ChannelAdam,Reflection,XML</PackageTags>
+    <PackageIconUrl>https://devzone.channeladam.com/img/channeladam/channeladam-logo.png</PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>2.0.0 - Refactored out of ChannelAdam.Core, target .NET Standard 2.0, no strong name signing</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChannelAdam.Xml" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
